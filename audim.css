@@ -1,0 +1,37 @@
+body {
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 2px solid white; 
+        border-radius: 10px;
+        background-color: #4469ac;
+        max-width: 500px; 
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    h2 {
+    
+        color: white;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100px;
+    }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+    margin-bottom: 20px; /* Adds space between videos */
+}
